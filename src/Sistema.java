@@ -16,14 +16,14 @@ public class Sistema {
     }
 
     public void inicializarDados() {
-        // Adicionar departamentos
+
         departamentos.add(new Departamento("Financeiro", 5000.0));
         departamentos.add(new Departamento("RH", 3000.0));
         departamentos.add(new Departamento("Engenharia", 10000.0));
         departamentos.add(new Departamento("Manutenção", 4000.0));
         departamentos.add(new Departamento("Marketing", 6000.0));
 
-        // Adicionar funcionários
+
         funcionarios.add(new Funcionario(1, "Alice", Funcionario.TipoFuncionario.EMPREGADO, departamentos.get(0)));
         funcionarios.add(new Funcionario(2, "Bob", Funcionario.TipoFuncionario.EMPREGADO, departamentos.get(1)));
         funcionarios.add(new Funcionario(3, "Charlie", Funcionario.TipoFuncionario.EMPREGADO, departamentos.get(2)));
